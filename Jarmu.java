@@ -1,47 +1,28 @@
-package autokolcsonzotest;
 
 public class Jarmu {
-
-	    int JarmuNR;
-	    String Alvazszam, Marka, Szin, Rendszam ;
-	   
-	public Jarmu(String alvszam, String mark, String szine){
-	    Marka = mark;
-	    Szin = szine;
-	    Alvazszam = alvszam;
-	}
-	 
-
-	public Jarmu(int jarmuNR2, String alvazszam2, String marka2, String szin2, String rendszam2) {
-		// TODO Auto-generated constructor stub
+	protected int gyartasiEv;
+	protected String marka;
+	protected int sebesseg;
+	protected int ajtoSzam;
+	protected String szin;
+	protected int szemelyekSzama;
+	
+	
+	public Jarmu(int ev,String Marka,int seb,int ajtok,String szine,int szemelyszam){
+		this.gyartasiEv=ev;
+		this.marka=Marka;
+		this.sebesseg=seb;
+		this.ajtoSzam=ajtok;
+		this.szin=szine;
+		this.szemelyekSzama=szemelyszam;
+		 
 	}
 	
-
-	public int getJarmuNR(){
-	    return JarmuNR;
-	}
-	public String getAlvazszam(){
-	    return Alvazszam;
-	}
-	public String getMarka(){
-	    return Marka;
-	}
-	public String getSzin(){
-	    return Szin;
-	}
-
-
-
-	public void setJarmuNR(int szam){
-	    JarmuNR = szam;
-	}
-	public void setAlvazszam(String alvszam){
-	    Alvazszam = alvszam;
-	}
-	public void setMarka(String mark){
-	    Marka = mark;
-	}
-	public void setSzin(String szine){
-	    Szin = szine;
-	}
+    public void Szarmazas(String ceg,int ar){
+    	
+    }
+    
+    public void Biztonsag(int sebesseg,int suly, boolean biztositas){
+    	
+    }
 }
