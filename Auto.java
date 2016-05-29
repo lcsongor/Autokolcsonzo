@@ -19,8 +19,8 @@ public class Auto {
 		this.ferohelyek = ferohelyek;
 		this.veszely = veszely;
 	}
-	public void karbantaratas(double osszeg){
-		//ezt meg nem tudom megcsinalni mert nincs meg a koltsegvetes osztaly
+	public void karbantaratas(int osszeg){
+		
 	}
 	
 	

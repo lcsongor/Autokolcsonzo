@@ -14,14 +14,15 @@ public class Sport extends Auto {
 	
 	public void kiir(){
 		System.out.println("Sebbeseg:"+sebesseg);
+		System.out.println("Sebbeseg:"+sebesseg +"km/h");
 		System.out.println("Valto:"+valto);
-		System.out.println("Fogyasztas:"+fogyasztas);
+		System.out.println("Fogyasztas:"+fogyasztas +"liter/100km");
 		System.out.println("Ar:"+ar);
 		System.out.println("Allapot:"+allapot);
 		System.out.println("Ferohelyek:"+ferohelyek);
 		System.out.println("Veszely szint:"+veszely);
 		System.out.println("Gyorsulas:"+gyorsulas );
-		System.out.println("Mximum sebesseg:"+max_sebesseg);
+		System.out.println("Mximum sebesseg:"+max_sebesseg +"kkm/h");
 		
 	}	
 

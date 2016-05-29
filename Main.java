@@ -15,6 +15,8 @@ public class Main {
 		
 		Kompakt ghi =  new Kompakt(190, "manualis", 8, 110, "foglalat", 6, 3);
 		ghi.kiir();
+		Ugyletek ugyletekKompaktra = new Ugyletek("Jozsi", 123456789, 1234, "AB", "VIP");
+		Leasing leasingKompaktra = new Leasing(60, 3, 20, ghi, ugyletekKompaktra);
 		
 		Varosi jkl =  new Varosi(130, "manualis", 9, 60, "szabad", 4, 2);
 		jkl.kiir();
